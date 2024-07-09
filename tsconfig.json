@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "lib": ["dom","dom.iterable","esnext"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["jest", "@types/jest"],
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "jest-setup.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
